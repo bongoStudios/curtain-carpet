@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "package": "tk.bongostudios.curtaincarpet.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MinecraftServer_noopMixin",
+    "DispenserBehaviorMixin",
+    "AnimalMateGoalMixin",
+    "FoxMateGoalMixin",
+    "TurtleMateGoalMixin",
+    "FallingBlockEntityMixin"
+  ],
+  "client": [
+    "MinecraftClient_noopMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
