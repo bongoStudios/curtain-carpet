@@ -21,7 +21,7 @@ public abstract class AnimalMateGoalMixin {
     protected AnimalEntity mate;
 
     @Inject(
-        method = "breed",
+        method = "breed()V",
         at = @At(
             value = "INVOKE",
             target = "Lnet/minecraft/world/World;spawnEntity(Lnet/minecraft/entity/Entity;)Z",
