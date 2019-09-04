@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "curtaincarpet",
+  "version": "${version}",
+
+  "name": "Curtain Carpet",
+  "description": "Just like a cowdog!",
+  "authors": [
+    "urix123"
+  ],
+  "contact": {
+    "homepage": "https://bongostudios.tk",
+    "sources": "https://github.com/bongoStudios/curtain-carpet"
+  },
+
+  "license": "MIT",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+    ]
+  },
+  "mixins": [
+    "modid.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.4.0",
+    "carpet": "*"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
